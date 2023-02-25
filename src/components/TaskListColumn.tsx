@@ -1,5 +1,5 @@
 import React from "react";
-import { ColumnProps } from "../types/Column";
+import { ColumnProps } from "../types/KanbanData";
 import ColumnItemsList from "./TaskList";
 import { Draggable } from "react-beautiful-dnd";
 

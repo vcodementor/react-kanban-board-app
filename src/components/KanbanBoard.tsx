@@ -1,7 +1,7 @@
 import { DragDropContext, Droppable, DropResult } from "react-beautiful-dnd";
 import TaskListColumn from "./TaskListColumn";
 import { columns, columnsOrder } from "../data/KanbanData";
-import { columnData } from "../types/Column";
+import { columnData } from "../types/KanbanData";
 import useLocalStorage from "../hooks/useLocalStorage";
 
 const KanbanBoard = () => {

@@ -1,6 +1,6 @@
 import React from "react";
 import { Droppable } from "react-beautiful-dnd";
-import { ColumnItemsListProps } from "../types/Column";
+import { ColumnItemsListProps } from "../types/KanbanData";
 import TaskCard from "./TaskCard";
 
 const TaskList: React.FC<ColumnItemsListProps> = ({ items, colId }) => {

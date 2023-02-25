@@ -1,6 +1,6 @@
 import React from "react";
 import { Draggable } from "react-beautiful-dnd";
-import { ColumnItemProps } from "../types/Column";
+import { ColumnItemProps } from "../types/KanbanData";
 
 const TaskCard : React.FC<ColumnItemProps> = ({ item, index }) => {
   return (
